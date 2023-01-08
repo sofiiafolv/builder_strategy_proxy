@@ -12,6 +12,8 @@ public class Client {
     private int age;
     @Setter @Getter
     private Gender sex;
+    @Setter @Getter
+    private String email;
     private static int count = 0;
 
     public Client(String name, Gender sex, int age){
